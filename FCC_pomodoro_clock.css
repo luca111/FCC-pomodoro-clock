@@ -1,0 +1,32 @@
+.inlineStuff {
+  display: inline;
+}
+
+#startButton, #resetButton {
+  font-size: 3em;
+  outline: none;
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+.changeDurationButton {
+  font-size: 2em;
+  vertical-align: middle;
+  color: #333333;
+}
+
+#decreaseTimeButton, #increaseTimeButton, #decreaseBreakButton, #increaseBreakButton {
+  text-decoration: none;
+}
+
+.vertAlign {
+  vertical-align: middle;
+}
+
+.fa-customSize1 {
+  font-size: 20em !important;
+}
+
+.fa-customSize2 {
+  font-size:15em !important;
+}

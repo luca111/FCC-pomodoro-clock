@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-md-offset-3 text-center">
+          <h3>Work length:</h3>
+          <a href="#" id="decreaseTimeButton" class="inlineStuff changeDurationButton">  -  </a>
+          <h4 id="desiredLength" class="inlineStuff vertAlign">25</h4><h4 class="inlineStuff vertAlign"> minutes</h4>
+          <a href="#" id="increaseTimeButton" class="inlineStuff changeDurationButton">  +  </a>
+          <br>
+          <br>
+          <button type="button" id="startButton" class="btn btn-default btn-lg">Start</button>
+        </div>
+        <div class="col-md-3 text-center">
+          <h3>Break length:</h3>
+          <a href="#" id="decreaseBreakButton" class="inlineStuff changeDurationButton">  -  </a>
+          <h4 id="desiredBreak" class="inlineStuff vertAlign">5</h4><h4 class="inlineStuff vertAlign"> minutes</h4>
+          <a href="#" id="increaseBreakButton" class="inlineStuff changeDurationButton">  +  </a>
+          <br>
+          <br>
+          <button type="button" id="resetButton" class="btn btn-default btn-lg">Reset</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-md-offset-4 text-center">
+        <h1 id="timerDisplay">25:00</h1>
+        <i id="timeIcon" class="fa fa-clock-o fa-customSize1" aria-hidden="true"></i>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  </body>
+</html>
